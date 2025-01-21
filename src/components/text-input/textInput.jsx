@@ -4,7 +4,7 @@ function TextInput() {
 
     return (
       <>
-          <input type="text" name="" id="" />
+          <input type="text" name="inputText" id= "inputText"/>
       </>
     )
   }

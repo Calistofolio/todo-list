@@ -8,7 +8,7 @@ function ItemCheckbox(props) {
     <>
         <input type="checkbox" name={props.name} id={props.index} />
         <label htmlFor={props.index}>{props.item}</label>
-        <Button title = "remove"></Button>
+        <Button onclick = {props.onclick} title = "remove"></Button>
     </>
   )
 }

@@ -5,7 +5,7 @@ function Button(props) {
 
   return (
     <>
-        <button>{props.title}</button>
+        <button onClick={props.onclick}>{props.title}</button>
     </>
   )
 }
