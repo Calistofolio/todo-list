@@ -5,8 +5,9 @@ function AddItemSection() {
 
   return (
     <>
-      <TextInput/>
-      <Button title = "Add"/>
+        <h3>Todo List</h3>
+        <TextInput/>
+        <Button title = "Add"/>
    </>
   )
 }
