@@ -1,0 +1,16 @@
+button{
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 10px;
+    border: solid;
+}
+
+.delete{
+    background-color: rgb(223, 65, 59);
+    border-color: white;
+    color: white;
+}
+
+.add{
+    border-color: rgb(69, 177, 110);
+}
